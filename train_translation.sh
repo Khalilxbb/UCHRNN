@@ -5,8 +5,6 @@ fname_conll='./result_files/train_wmt_predict_wmt_conll.json'
 
 target_file_indomain='./translation/result_files/gt/wmt_en_result.json'
 target_file_conll='./result_files/gt/conll_testset_result.json'
-# target_file_indomain='./result_files/gt/giga_testset_result.json'
-# target_file_indomain='result_files/gt/mnli_matched_result.json'
 
 
 for fp in $(seq 0 200 8000)
