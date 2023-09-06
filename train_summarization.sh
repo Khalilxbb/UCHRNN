@@ -5,9 +5,6 @@ fname_conll='./result_files/train_giga_predict_giga_conll.json'
 
 target_file_test='./result_files/gt/giga_testset_result.json'
 target_file_conll='./result_files/gt/conll_testset_result.json'
-# target_file_test='./translation/result_files/gt/wmt_en_result.json'
-# target_file_test='./result_files/gt/mnli_matched_result.json'
-# target_file_conll='./result_files/gt/conll_devset_result.json'
 
 for fp in $(seq 0 200 8000)
 do
